@@ -2,6 +2,7 @@
 const items = [
   { id: 1, name: 'john' },
   { id: 2, name: 'susan' },
+   { id: 3, name: 'sam' },
 ]
 exports.handler = async function (event, context) {
   return {
